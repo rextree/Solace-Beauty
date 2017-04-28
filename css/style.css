@@ -1,0 +1,165 @@
+html body{
+    color: #1f6db1;
+}
+
+.navbar{
+    border: none;
+}
+
+.navbar-default{
+    background-color: rgba( 255, 255, 255, 0.6);
+    transition: 0.3s all linear;
+}
+
+.navbar-default.change-color {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(221,221,221,1);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(221,221,221,1);
+  box-shadow: 0px 0px 4px 0px rgba(221,221,221,1);
+}
+
+#topImage {
+    height: 70vh;
+    background-image: url(../assets/image/background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron{
+    margin-top: 20vh;
+    background-color: rgba( 250, 254, 250, 0.8 )
+}
+
+#intro{
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#sectionImage{
+    margin-top: 50px;
+    width: 200px;
+}
+
+#secondPart{
+    height: 70vh;
+    background-image: url(../assets/image/massage.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#thirdPart{
+    height: 700px;
+    background-color: black;
+}
+
+.jumbotron2{
+    background-color: rgba( 255, 255, 255, 0.8 );
+}
+
+.service{
+    padding: 10px;
+        
+}
+
+#service{
+    padding: 50px 0px;
+}
+
+#footerImage{
+    height: 70vh;
+    background-image: url(../assets/image/Organic-Waxing.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer{
+    padding: 50px 0px 0px;
+    color: #1f6db1;
+}
+
+@media (max-width:767px){
+    .navbar-default{
+        background-color: white;
+    }
+}
+#openingHrs{
+    color: #1f6db1;
+}
+
+#openingHrs ul li {
+    border-bottom:1px solid #1f6db1;
+    padding-bottom: 3px;
+}
+
+#openingHrs ul li:last-child{
+    border-bottom: none;
+}
+
+#openingHrs ul li.today{
+    color: #ff4747;
+}
+
+#openingHrs h3{
+    border-bottom: 1px solid #1f6db1;
+}
+
+/*
+#social{
+    text-align: l;
+}
+*/
+
+#social i{
+    font-size: 2.5em;
+    padding: 10px
+}
+
+#social i:first-child{
+    padding-left: 0px;
+}
+
+.fa-weibo{
+    color: #f52222;
+}
+
+.fa-weixin{
+    color: #7bb32e;
+}
+
+.fa-facebook-official{
+    color: #3b5998;
+}
+
+.fa-instagram{
+    color: #cf1a60
+}
+
+.fa-snapchat-square{
+    color: #fffc00;
+}
+
+#powered{
+    margin-top: 40px;
+    background-color: grey;
+    color: aliceblue;
+}
+
+.btn-success{
+    border-bottom: 4px solid #207a00;
+}
+.btn-success:active{
+    border-bottom: none;
+    position: relative;
+    top: 4px;
+}
+
+.service_img{
+	padding: 25px;
+}
